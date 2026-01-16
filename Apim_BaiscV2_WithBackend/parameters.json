@@ -1,0 +1,59 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "apimName": {
+            "value": "shaileshAPIMbasicV2"
+        },
+        "location": {
+            "value": "westus"
+        },
+        "tier": {
+            "value": "BasicV2"
+        },
+        "capacity": {
+            "value": "1"
+        },
+        "adminEmail": {
+            "value": "shalu.june14@gmail.com"
+        },
+        "organizationName": {
+            "value": "myorg"
+        },
+        "virtualNetworkType": {
+            "value": "None"
+        },
+        "tagsByResource": {
+            "value": {}
+        },
+        "vnet": {
+            "value": {}
+        },
+        "zones": {
+            "value": []
+        },
+        "customProperties": {
+            "value": {}
+        },
+        "identity": {
+            "value": {
+                "type": "SystemAssigned"
+            }
+        },
+        "zoneRedundant": {
+            "value": false
+        },
+        "appInsightsObject": {
+            "value": {
+                "id": null,
+                "name": null
+            }
+        },
+        "privateDnsDeploymentName": {
+            "value": "PrivateDNS-1768521879156"
+        },
+        "subnetDeploymentName": {
+            "value": "UpdateSubnetDeployment-1768521879156"
+        }
+    }
+}
